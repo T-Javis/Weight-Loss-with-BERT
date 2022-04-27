@@ -47,7 +47,7 @@ Or start with other numbers return ['15', '16', '17', '18', '19']
 ### **Rebuild**
 This model is built for Chinese. If you want to rebuild the model for English, you should download the BERT for English, use the English data and modify the function WeightLossTextProcessor(DataProcessor) in the run_classifier_weighted_loss.py
 
-###  **Feel free to contact me or leave message if there’s any questions.**  
+####  **Feel free to contact me or leave message if there’s any questions.**  
 
 ### **缘起**
 为了解决bert在分类领域中，数据偏斜的问题(data-imbalanced or long-tail)，使用了weight loss的思想
